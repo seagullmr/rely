@@ -1,0 +1,21 @@
+{
+    "name": "seagullmr/rely",
+    "description": "常用类",
+    "type": "1",
+    "require": {
+        "php": "8.1"
+    },
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Seagullmr\\Rely\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "seagullmr",
+            "email": "seagullSir@Gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
