@@ -9,6 +9,8 @@ use ReflectionException;
  * 依赖包基础类
  *
  * @method static aes()
+ * @method static stringHelper()
+ * @method static arrayHelper()
  */
 class Brain
 {

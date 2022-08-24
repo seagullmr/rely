@@ -3,13 +3,13 @@
     "description": "常用类",
     "type": "library",
     "require": {
-        "php": "8.1"
+        "php": "8.1",
+        "ext-openssl": "*",
+        "ext-libxml": "*",
+        "ext-simplexml": "*"
     },
     "license": "Apache-2.0",
     "autoload": {
-        "files":[
-            "src/helper.php"
-        ],
         "psr-4": {
             "Seagullmr\\Rely\\": "src/"
         }
